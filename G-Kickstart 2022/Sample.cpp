@@ -3,10 +3,10 @@ using namespace std;
 
 int main()
 {
-    int TESTCASE, Nbag, Mstudent, NcandyIn;
+    int testcases, Nbag, Mstudent, NcandyIn;
     
-    cin >> TESTCASE;
-    for (int j = 1; j<=TESTCASE; j++)
+    cin >> testcases;
+    for (int j = 1; j<=testcases; j++)
     {
         cin >> Nbag >> Mstudent;
         unsigned int remainder=0;
