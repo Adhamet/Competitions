@@ -6,10 +6,10 @@ bool isVowel(string TEMP);
 
 int main()
 {
- int Alice, Bob, Cases;
+ int testcases;
  string temp;
- cin >> Cases;
- for (int i = 1; i<=Cases ;i++)
+ cin >> testcases;
+ for (int i = 1; i<=testcases ;i++)
  {
      cin >> temp;
      int k = temp.length()-1;
